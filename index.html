@@ -109,14 +109,16 @@
         </div>
         <button class="">Submit</button>
       </form> -->
-      <form novalidate>
-        <!-- <label for="text" class="form-label">Amount</label>
+
+      <!-- FORM VALIDATION -->
+      <!-- <form novalidate> -->
+      <!-- <label for="text" class="form-label">Amount</label>
         <div class="input-group">
           <div class="input-group-text">$</div>
           <input type="number" class="form-control" id="text" />
           <button class="btn btn-primary">+</button>
         </div> -->
-        <div class="form-floating">
+      <!-- <div class="form-floating">
           <input
             type="email"
             name=""
@@ -130,17 +132,30 @@
           <div class="valid-feedback">Valid email</div>
         </div>
         <button>Submit</button>
-      </form>
+      </form> -->
+
+      <!-- BOOTSTRAP COMPONENTS -->
+
+      <div class="btn-group btn-group-lg">
+
+
+        <button class="btn btn-outline-primary " data-bs-toggle="button" >Test</button>
+        <a class="btn btn-outline-primary " href="#"">Test</a>
+        <a class="btn btn-outline-primary " href="#"">Test</a>
+        <a class="btn btn-outline-primary " href="#"">Test</a>
+        <a class="btn btn-outline-primary " href="#"">Test</a>
+        <a class="btn btn-outline-primary " href="#"">Test</a>
+      </div>
     </div>
     <script>
-      const form = document.querySelector("form");
+      // const form = document.querySelector("form");
 
-      form.addEventListener("submit", (e) => {
-        if (!form.checkValidity()) {
-          e.preventDefault();
-        }
-        form.classList.add("was-validated");
-      });
+      // form.addEventListener("submit", (e) => {
+      //   if (!form.checkValidity()) {
+      //     e.preventDefault();
+      //   }
+      //   form.classList.add("was-validated");
+      // });
     </script>
   </body>
 </html>
